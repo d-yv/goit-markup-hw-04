@@ -1,7 +1,7 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  color: #434455
+  color: #434455;
 }
 
 .container {
@@ -42,7 +42,6 @@ address {
 /* #region header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-
 }
 
 .header-container {
@@ -57,7 +56,7 @@ address {
 }
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -113,7 +112,6 @@ address {
   color: #434455;
   padding: 24px 0;
   display: block;
-
 }
 
 .contacts-item-link:hover,
@@ -126,6 +124,13 @@ address {
 /* #region hero */
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 1440px;
   height: 600px;
   padding: 188px 0;
 }
@@ -142,7 +147,7 @@ address {
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -203,6 +208,21 @@ address {
   max-width: 264px;
 }
 
+.skills-icon-box {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  padding: 24px 0;
+  margin-bottom: 8px;
+}
+
+.skills-icon {
+  display: block;
+  margin: 0 auto;
+}
+
 .skills-list-text {
   font-weight: 400;
   font-size: 16px;
@@ -236,12 +256,16 @@ address {
 .team-list-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-list-photo {}
 
 .team-list-caption {
-  padding: 32px 0
+  padding: 32px 0;
 }
 
 .team-list-name {
@@ -261,6 +285,38 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-socials-item {
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.team-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.team-socials-item:hover,
+.team-socials-item:focus {
+  background-color: #404bbf;
+}
+
+.team-socials-icon {
+  fill: white;
 }
 
 /* #endregion Our team */
@@ -298,7 +354,6 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* margin-top: 32px; */
   margin-bottom: 8px;
 }
 
@@ -308,7 +363,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 .portfolio-list-caption {
@@ -317,7 +371,6 @@ address {
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
 }
-
 
 /* #endregion Our portfolio */
 
@@ -329,7 +382,7 @@ address {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
