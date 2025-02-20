@@ -503,8 +503,8 @@ address {
   gap: 16px;
 }
 
-.footer-socials-item:hover,
-.footer-socials-item:focus {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
   background-color: #31d0aa;
 }
 
