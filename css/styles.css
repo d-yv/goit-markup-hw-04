@@ -43,6 +43,9 @@ address {
 /* #region header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -151,8 +154,10 @@ address {
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
 }
 
@@ -231,12 +236,15 @@ address {
 }
 
 .skills-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
-  padding: 24px 0;
+  /* padding: 24px 0; */
   margin-bottom: 8px;
 }
 
@@ -311,6 +319,13 @@ address {
   text-align: center;
   margin-bottom: 8px;
 }
+
+/* .team-socials {
+  display: flex;
+  justify-content: center;
+
+
+} */
 
 .team-socials-list {
   display: flex;
