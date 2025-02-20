@@ -451,10 +451,21 @@ address {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+
+}
+
+.footer-slogan {
+  margin-right: 120px;
+}
+
+/* 
 .footer-list {
   display: flex;
   gap: 120px;
-}
+} */
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
